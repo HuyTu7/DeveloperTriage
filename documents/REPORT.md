@@ -1,12 +1,12 @@
-#REPORT MILESTONE
+# REPORT MILESTONE
 
 This final report of our Triage bot project contains (1) a description of the problem the bot solves, (2) the bot's primary features, (3) the development process of the bot, and (4) some limitations and future work for our bot. 
 
-##The Problem:
+## The Problem:
 
 Assigning bugs to developers is a time consuming task which wastes precious and expensive developer hours. The ability to assign and suggest similar and suitable issues along with the ability to recommend experienced developers for help to the user is an essential core of our bot. 
 
-##Primary Features And Screenshots:
+## Primary Features And Screenshots:
 
 - Fetch open issues that are matched to the developer based on the experience of working with similar issues in the past. (Compares closed issue of the developer with the current open issues and ranks them)
 
@@ -20,7 +20,7 @@ Assigning bugs to developers is a time consuming task which wastes precious and 
 
  <img src="../images/helpIssues_useCase3.png"/>
 
-##Development Process:
+## Development Process:
 
 The project development was a great learning experience. We all improved several skills throughout the milestones: 
 
@@ -31,7 +31,7 @@ The project development was a great learning experience. We all improved several
 
 In the beginning of the project, with the slack of knowledge about the tools/technologies and experience with bot making, the development was a bit slow. After researching and gathering information about alternatives and technogies that are most suited to implement the bot, the process accerlerated steadily. The development process was agile, as we had to constantly change the requirements of our bot to solve the problem of task allocation. The team was flexible and ready to switch gears and change the approach of how the bot should process the commands and handle edge cases. In every team meeting, we would look at the current state of the bot and create a list of known bugs and new features that needed to be added. We would then prioritize and fix a deadline for a portion of the high priority tasks, evaluate the new functions of our bot, and then repeat the whole process again in an iterative fashion. When faced with difficult programming tasks that required lots of refactoring, the team engaged in pair programming, where the driver made the required changes and the navigator corrected mistakes and guided the driver.
 
-##Limitations And Future Work:
+## Limitations And Future Work:
 
 With the scope of the project and the time constraints, even though our bot provides solutions to the task allocation problem, it can definitely be improved in terms of performance and flexibility in different environments. There are several limitations and potential enhancements that should be considered for future work.
 
