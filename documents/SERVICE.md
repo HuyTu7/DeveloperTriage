@@ -1,4 +1,4 @@
-##Service Milestone
+## Service Milestone
 
 In the previous milestone, we described 3 use cases and implemented interaction with the bot by using mock data and services. In this milestone, we will be implementing the internal logic required to actually perform the services/tasks via our Developer Triage Bot.
 
