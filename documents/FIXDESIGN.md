@@ -1,6 +1,6 @@
-#Design Milestone
+# Design Milestone
 
-###Problem Statement
+### Problem Statement
 
 There is a lot of friction involved in allocating tasks to software developers when working with any project involving multiple members. Why is task allocation a problem? Here are some of the common challenges that afflict software development:
 
@@ -21,13 +21,13 @@ TriageBot would best fit into the <a href="http://willschenk.com/bot-design-patt
 
 ### Design Sketches
 
-#####Wireframe:
+##### Wireframe:
 
 Below is a simple wireframe of the Slack UI which is where the developer will interact with TriageBot.
 
 <img src="../images/botWireframe.png"/>
 
-#####Storyboard:
+##### Storyboard:
 
 - Developers can look for open issues and assign them to themselves. The issues will be linked to the respective Github issues. The developer can ask the bot for open issues to work on. He’d use natural language, and the bot would look for keywords like “issue” or “work”. It then understands that the developer is asking for the open issues that fit his expertise.
 The bot would then list the issues for the developer and wait for a response. The developer would respond with a phrase that indicates which issue he wants to work on. He would say something like, “I want the first one” or “number 1”.
@@ -66,7 +66,7 @@ Constraints or guidelines that should be established in building software for yo
 - Each individual issue is assigned appropriate label(s) by the developer(s).
 - Deadlines looks for issues with attached milestones.
 
-###Additional Design Pattern:
-#####Adapter Pattern
+### Additional Design Pattern:
+##### Adapter Pattern
 It makes one interface compatible with the other or we can that it works as a bridge between two incompatible interfaces.The adapter class will have an instance of the adaptee class and will map its method to the target interface. We are in a way mapping the GitHub Api with the with the chatbots messaging interface. The user will be typing the command/message which will then be converted to a correct set of Api calls to GitHub.
 
